@@ -3,9 +3,12 @@ import matplotlib.pyplot as plt
 def make_plots(df):
     """
     Input: a DataFrame with columns "sex", "weight", "systolic_bp", and "smoker".
-    Output: a figure with 3 subplots, side by side.
+    Output: a figure with 3 subplots, side by side. 
+    To the left, a histogram of blood pressure frequency.
+    In the center, a box plot of grouped gender weights.
+    To the right, a bar graph of how many smokers and non-smokers there are.
     """
-    fig, ax = plt.subplots(1,3, figsize=(12,5)) # 3 plots i samma figur
+    fig, ax = plt.subplots(1,3, figsize=(7,3)) # 3 plots i samma figur
 
     # Plot längst till vänster 
     # (histogram över blodtryck)
@@ -24,7 +27,7 @@ def make_plots(df):
     ax[2].bar(quantity_smokers.index, quantity_smokers.values, edgecolor="black", color=["blue","red"])
     ax[2].set_title("Hur många som röker")
 
-    plt.tight_layout()
-    plt.show()
+    fig.tight_layout()
+    # plt.show()
 
     return fig, ax

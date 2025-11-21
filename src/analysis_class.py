@@ -2,7 +2,7 @@
 
 # importera dataclass, lite mindre robust men lättare skriven.
 from dataclasses import dataclass
-import pandas as pd
+import pandas as pd, matplotlib.pyplot as plt
 
 # importera summary och plotter funktionerna inuti src paketet
 from .summary import summary
@@ -16,7 +16,13 @@ class Analysis_class:
     df: pd.DataFrame
 
     def assign_plots(self):
+        """
+        Uses "plotter.py" functions to assign attribute to Analysis_class object.
+        """
         make_plots(self.df)
 
     def assign_summary(self):
+        """
+        Uses "summary.py" function to assign a DataFrame attribute to Analysis_class object.
+        """
         return summary(self.df)

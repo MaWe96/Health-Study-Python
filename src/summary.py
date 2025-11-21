@@ -19,4 +19,4 @@ def summary(df):
         "Cholesterol": [chol.mean(), chol.median(), chol.min(), chol.max()]
     }, index=["Mean","Median","Min", "Max"])
 
-    return summary
+    return summary.round(1)
