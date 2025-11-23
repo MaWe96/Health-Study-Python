@@ -7,6 +7,10 @@ Python analysis project of health data.
 - multiple linear regression, PCA.
 - dataclass, class (OOP)
 - simulation, confidence interval, power
-- python documentation and references to one linear algebra book, and one statistical.
+- git bash, python docs
+
+References:
+- Wackerly, D., Mendenhall, W., Scheaffer, R. (2014). Mathematical Statistics with Applications, 7th Edition, Cengage Learning.
+- Anton, H., Rorres, C. (2014). Elementary Linear Algebra: Applications Version, 11th Edition, Wiley.
 
 Python version: 3.14.0
