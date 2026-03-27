@@ -16,13 +16,13 @@ Python analysis project of health data.
 | --------- | -------------- | ------------- | --- |
 | 109.50    | 0.54 | 0.18 | 0.405 |
 
-**Konfidensintervall**
+**Konfidensintervall**:
 | Metod | Intervall |
 | ----- | ------ |
 | Normalapproximation | 148.29, 150.06 |
 | Bootstrap | 148.31, 150.10 |
 
-**Hypotesprövning**
+**Hypotesprövning**:
 Skillnad i medelblodtryck: 0.47 mmHg
 | Bootstrap CI | -1.48, 2.48 |
 | Welch t-test | t = 0.45, p = 0.653 |
@@ -30,10 +30,12 @@ Då intervallet innehåller 0, och *p* > 0.05 förkastas inte nollhypotesen.
 
 ### PCA
 ![PCA](https://github.com/MaWe96/Health-Study-Python/blob/main/Results/PCA.png)
+
 **PCA** visade mer strukturen i data än separation av klasser.
 
 ### Power
 ![Power](https://github.com/MaWe96/Health-Study-Python/blob/main/Results/Power.png)
+
 Det krävs stora stickprov för att upptäcka skillnad.
 
 ## References:
