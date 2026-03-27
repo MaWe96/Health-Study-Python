@@ -1,7 +1,7 @@
 # Health-Study-Python
 Python analysis project of health data.
 
-## Method
+## Arbetsmoment
 - numpy, pandas, matplotlib.
 - scipy, scikit-learn, statsmodels.
 - multiple linear regression, error analysis.
@@ -10,7 +10,7 @@ Python analysis project of health data.
 - simulation: bootstrap, Welch t-test, confidence interval, power.
 - git bash, python- & mathematical documentation.
 
-## Results
+## Resultat
 **Blodtryck** modellerad som funktion av ålder och vikt:
 | Intercept | Coeff 1: Ålder | Coeff 2: Vikt | R^2 |
 | --------- | -------------- | ------------- | --- |
